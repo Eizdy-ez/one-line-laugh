@@ -3,7 +3,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const LINE = "The Wi-Fi went down for ten minutes and my family finally talked, which is how we discovered we all hate the same neighbour.";
+const LINE = "I bought a plant to teach myself responsibility, and it died while I was reading the care instructions.";
 
 if (LINE.length > 200 || LINE.trim().length === 0) {
   throw new Error("entry line must be 1 to 200 characters");
